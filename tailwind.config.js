@@ -8,6 +8,16 @@ module.exports = {
       position: ['top', 'left'],
     },
     extend: {},
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '0.5rem',
+        sm: '1rem',
+        lg: '2rem',
+        xl: '4rem',
+        '2xl' : '8rem',
+      },
+    },
   },
   variants: {
     extend: {
@@ -25,7 +35,7 @@ module.exports = {
   plugins: [
     require('tailwindcss-debug-screens'),
   ],
-  presets : [
-    require ( ' ./company_styles ' )
+  presets: [
+    require('./company_styles')
   ],
 }
