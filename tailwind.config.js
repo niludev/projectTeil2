@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+/* inja harchi ke variable hast (dar vaghe taghir mikone) ro negah midarim! */
 
 module.exports = {
   purge: [],
@@ -6,18 +6,6 @@ module.exports = {
   theme: {
     debugScreens: {
       position: ['top', 'left'],
-    },
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      white: colors.white,
-      black: colors.black,
-      blue: colors.blue,
-      yellow: colors.yellow,
-      gray: colors.blueGray,
-      cyan: colors.cyan,
-      lime: colors.lime,
-      rose: colors.rose,
     },
     extend: {},
   },
@@ -36,5 +24,8 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-debug-screens'),
+  ],
+  presets : [
+    require ( ' ./company_styles ' )
   ],
 }
