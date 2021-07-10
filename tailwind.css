@@ -12,4 +12,8 @@
     .container {
         @apply mx-auto prose-xl tablet:prose-lg computer:prose prose-rose computer:prose-rose computer:max-w-min bg-gray-50 pb-16 px-4 py-4;
     }
+
+    ol > li::before {
+        @apply text-gray-800 !important;
+    }
 }
