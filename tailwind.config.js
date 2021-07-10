@@ -39,6 +39,7 @@ module.exports = {
     require('tailwindcss-debug-screens'),
   ],
   presets: [
-    require('./company_styles')
+    /* require('./company_styles') */
+    require('./zdf_styles')
   ],
 }

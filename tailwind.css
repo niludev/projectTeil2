@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* age inja brekpoint tarif karde bashim bayad pak konim age bekhaim
+ jaye dg breakpoint tarif konim. (masalan zdf_styles.js)
+*/
+
+
+/* ino inja neveshtim ke flexible bashim va age khastim avazesh konim mitunim az zdf.html überschreibenesh konim. */
+@layer components {
+    .container {
+        @apply mx-auto;
+    }
+}
