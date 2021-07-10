@@ -20,7 +20,8 @@ module.exports = {
     },
   },
   variants: {
-    extend: {
+    backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'focus'], /* inja überschreiben mikonim variant hasho */
+    extend: { /* inja variant haye jadid ezafe mikonim */
 
       /* colors: {
         darkBlue: '#212f49'
@@ -29,6 +30,8 @@ module.exports = {
       spacing: {
         13: '3.25rem',
       }, */
+
+      width: ['hover'],
 
     },
   },
