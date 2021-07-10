@@ -3,6 +3,10 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+  corePlugins: {
+    // ...
+   float: false,
+  },
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
